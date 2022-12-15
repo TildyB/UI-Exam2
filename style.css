@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #eae9e4;
+    overflow-x: hidden;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.2em;
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px solid;
+    color: white;
+    background-color: #1c1717;
+}
+.header h1{
+        font-weight: bold;
+        font-size: 24px;
+}
+
+
+.content{
+    max-width: 1280px;
+    gap: 100px 20px;
+    padding: 40px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #1c1717;
+    min-height: 13rem;
+    min-width: 20rem;
+    border: none;
+}
+.cardUpper{
+    padding: 40px;
+    letter-spacing: 0.2em;
+    border: 1px solid #1c1717;
+}
+.cardLower{
+    width: 100%;
+    background-color: #1c1717;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: -7px;
+}
+.content h3{
+    font-size: 18px;
+    font-family: "Montserrat";
+}
+.content h1{
+    font-size: 36px;
+    font-family: "Roboto";
+}
+.button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 14px;
+    border:none;
+    background-color: #eae9e4;
+    margin: 5px;
+}
+.buttonText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    border-bottom:1px solid #1c1717;
+    padding-bottom: 7pxx;
+}
